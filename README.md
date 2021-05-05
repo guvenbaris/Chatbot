@@ -1,12 +1,10 @@
 # ChatBot
 
-
-
 In this project, have two different chatbot. First one is created from intent file. Second one is created from movie dialog corpus file. 
 
 # 1. Intent Chatbot Explanation
 
-In this part our purpose is to guess which part of the question asked belongs and to be able to answer according to that part. Thus we can give closed answer to question. This is our purpose. In this project used speach recognation and text to speec conversaion. 
+In this part our purpose is to guess which part of the question asked belongs and to be able to answer according to that part. Thus we can give closed answer to question. This is our purpose. In this project used speach recognation and text to speech conversaion. 
 
 ## 1.1. Data Preprocessing And Model Creating
 
@@ -30,18 +28,3 @@ In this project used sequence to sequence model [seq2seq](https://blog.keras.io/
 * MaxlenDecide : Shrinking the data set according to the max_len we have determined
 * Tokenization : To enable us to express words with vectors and return encoder,decoder input and decoder output data
 * Seq2SeqModel : Sequence to Sequence model and make inference model (for the prediction)
-
-## Model:
-* Data: Intent.json
-* Tür: Classification
-* Optimizer: SGD
-* Loss: Categorical Crossentropy
-## Authors
-* **Güven Barış ÇAKAN** - [guvenbaris](https://github.com/guvenbaris)
-
-
-
-
-
-
-
